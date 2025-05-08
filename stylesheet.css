@@ -1,0 +1,24 @@
+.profile-card {
+    border: 2px solid grey; 
+}
+
+body {
+    background: hwb(185 10% 32%); 
+    margin: 0; 
+    text-align:center; 
+}
+
+
+#circle-top {
+    width: 667.5px;
+    margin: 0; 
+    object-position: -100px -250px;  
+
+}
+
+#circle-bottom {
+    width: 667.5px; 
+    margin: 0; 
+    object-position: 100px 250px; 
+    
+}
