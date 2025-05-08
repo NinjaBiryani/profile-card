@@ -6,6 +6,10 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">
   
   <title>Frontend Mentor | Profile card component</title>
 
@@ -14,18 +18,28 @@
   <img id="circle-top" src="images/bg-pattern-top.svg" alt="top-pattern">; 
   <img id="circle-bottom" src="images/bg-pattern-bottom.svg" alt="bottom-pattern">; 
   <div class="profile-card"> 
-    Victor Crest
-    26
-    London
-
-    80K
-    Followers
-
-    803K
-    Likes
-
-    1.4K
-    Photos
+    <div id="profile-card-top">
+      <img id="profile-background-pattern" src="images/bg-pattern-card.svg" alt="Profile background pattern">
+    </div>
+    <div id="profile-card-bottom">
+      <img id="profile-pic" src="images/image-victor.jpg" alt="Profile picture of Victor Crest">
+      <p id="name-age"><strong id="name">Victor Crest</strong> <span id="age">26</span></p>
+      <p id="city">London</p>
+      <div class="stats">
+        <div id="followers">
+          <p id="followers-count">80K</p>
+          <p id="followers-text">F o l l o w e r s</p>
+        </div>
+        <div id="likes">
+          <p id="likes-count">803K</p>
+          <p id="likes-text">L i k e s</p>
+        </div>
+        <div id="photos">
+          <p id="photos-count">1.4K</p>
+          <p id="photos-text">P h o t o s</p>
+        </div>
+      </div>
+    </div>
   </div>
   <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 

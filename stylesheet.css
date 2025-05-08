@@ -1,5 +1,17 @@
 .profile-card {
-    border: 2px solid grey; 
+    position: absolute; 
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-50%, -50%); 
+    border-radius: 8px; 
+    border: 2px solid grey;
+    display: flex; 
+    flex-direction: column;  
+    box-shadow: 0 0 32px 0.5px #343a40; 
+    font-family: 'Kumbh Sans', sans-serif; 
+    font-size: 18px; 
+    font-weight: 400; 
+    color: hsl(229, 23%, 23%);
 }
 
 body {
@@ -22,3 +34,69 @@ body {
     object-position: 100px 250px; 
     
 }
+
+#profile-card-top {
+    border-radius: 8px; 
+}
+
+#profile-pic {
+    border-radius: 50px; 
+}
+
+#profile-card-bottom {
+    background: whitesmoke; 
+    border-bottom-right-radius: 8px; 
+    border-bottom-left-radius: 8px;
+}
+
+#name-age {
+    margin: 10px 0 5px 0; 
+}
+
+#age {
+    color: hsl(227, 10%, 46%);  
+    font-size: 18px; 
+    margin: 0px; 
+}
+
+#name {
+    margin: 0px 5px 0px 0px; 
+}
+
+#city {
+    color: hsl(227, 10%, 46%);  
+    font-size: 16px; 
+    margin: 0; 
+    margin: 0 0 12.5px 0; 
+}
+
+.stats {
+    font-weight: 700; 
+    border-top: 1px solid hsl(0, 0%, 59%); 
+    /* max-height: 75px;  */
+    display: flex; 
+    justify-content: center;   
+}
+
+#followers, #likes, #photos {
+    /* max-height: 75px;  */
+    display: flex; 
+    flex-direction: column; 
+    /* align-items: center;  */
+    /* border: 2px solid blue;  */
+}
+
+#followers-count, #photos-count, #likes-count {
+    margin: 15px 0 5px 0; 
+}
+
+#likes-text,#followers-text, #photos-text {
+    margin: 0 0 15px 0; 
+    font-size: 12px; 
+    color: hsl(0, 0%, 59%); 
+    min-width: 100px;
+}
+
+
+
+
